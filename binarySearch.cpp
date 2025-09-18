@@ -28,12 +28,12 @@ int binarySearch(vector<int> &arr, int x) {
 int main() {
     vector<int> arr = { 2, 3, 4, 10, 40 };
     int x = 10;
-    // int result = binarySearch(arr, x);
-    // if(result == -1) {
-    //     cout << "Element is not present in array";
-    // }
-    // else {
-    //     cout << "Element is present at index " << result;
-    // }
+    int result = binarySearch(arr, x);
+    if(result == -1) {
+        cout << "Element is not present in array";
+    }
+    else {
+        cout << "Element is present at index " << result;
+    }
     return 0;
 }
