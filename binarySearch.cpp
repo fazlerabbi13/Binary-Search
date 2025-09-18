@@ -17,9 +17,9 @@ int binarySearch(vector<int> &arr, int x) {
             low = mid + 1;
 
     //     // If x is smaller, ignore right half
-    //     else
-    //         high = mid - 1;
-    // }
+        else
+            high = mid - 1;
+    }
 
     // If we reach here, then element was not present
     return -1;
