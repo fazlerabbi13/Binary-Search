@@ -13,8 +13,8 @@ int binarySearch(vector<int> &arr, int x) {
             return mid;
 
         // If x greater, ignore left half
-    //     if (arr[mid] < x)
-    //         low = mid + 1;
+        if (arr[mid] < x)
+            low = mid + 1;
 
     //     // If x is smaller, ignore right half
     //     else
